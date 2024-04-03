@@ -1,0 +1,38 @@
+main{
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: #E1BEE7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart{
+  background-color: #3F0947;
+  color: white;
+  
+}
+#title{
+  fill: white;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: underline;
+}
+.bar{
+  fill: #F48FB1;
+}
+.bar:hover{
+  fill: #880E4F;
+}
+
+#tooltip {
+  position: absolute;
+  display: none;
+  opacity: 0.7;
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid #EC407A;
+  padding: 10px;
+}
